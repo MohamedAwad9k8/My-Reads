@@ -10,13 +10,6 @@ const Search = ({ onBookUpdate, books }) => {
   const [results, setResults] = useState([]);
 
   const handleChange = (e) => {
-    // if (e.target.value === "l" || e.target.value === "li") {
-    //   setQuery("lin");
-    // } else if (e.target.value === "b") {
-    //   setQuery("ba");
-    // } else {
-    //   setQuery(e.target.value);
-    // }
     setQuery(e.target.value);
   };
 
